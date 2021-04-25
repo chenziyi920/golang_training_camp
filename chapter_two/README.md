@@ -21,7 +21,7 @@ func Query() (*result, error) {
 ```go
 func GetXXX() error {
     result, err := dao.Query()
-    //对err做断言处理
+    //由自身逻辑决定是否对err做断言处理
     if err != nil && !errors.Is(err, sql.ErrNoRows) {
         return err
     }
