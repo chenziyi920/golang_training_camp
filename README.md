@@ -1,1 +1,1 @@
-# golang_training_camp
+# Go进阶训练营相关
